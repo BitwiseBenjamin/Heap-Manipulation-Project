@@ -1,18 +1,19 @@
 /*
+** Heap Manipulator Project
 * Language: C++
 *
- * MinHeap - A program that creates a MinHeap class and utilizes it to store ELEMENTS in a min heap fashion based on their key.
+ ** MinHeap - A program that creates a MinHeap class and utilizes it to store ELEMENTS in a min heap fashion based on their key.
  *           The program also includes a util file that implements functions to add and edit elements within the MinHeap.
  *           Additionally, there is a run file that takes user input characters to determine which functions in util will be 
  *           used to create and edit the MinHeap. The program also reads from a file when the user input is R.
  * 
  * Programmers: Zachary Rundstrom
  * 
- * How to Run:
+ ** How to Run:
  *   1. Compile the program using the provided Makefile and run "make" in the terminal.
  *   2. Then run the program: "./run".
  * 
- * How to Use:
+ ** How to Use:
  *   1. Upon running the program, the user will be prompted to enter input:
  *      a. "S" stops the program
  *      b. "C n" will delete the minimum element from the MinHeap and print out values if n is 2
@@ -60,7 +61,7 @@
             string printHeap(MinHeap* theHeap);
 
  * 
- * Files:
+ ** Files:
  *   1. run.cpp - The main driver file that runs the program.
  *   2. Heap.h - The header file for the MinHeap class.
  *   3. Heap.cpp - The implementation file for the MinHeap class.
@@ -69,7 +70,7 @@
  *   7. Heapinput.txt - An example file that contains data to be read by the program.
  *   8. ELEMENT.cpp - create the element class to be stored in the heap
  * 
- * Contributing:
+ ** Contributing:
  * 
  * Personal project, no contributions or pulls allowed.
  * 
